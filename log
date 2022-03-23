@@ -43,3 +43,16 @@ Wed Mar 23 14:35:28 UTC 2022:
  tests:  6|3
 total_score: 35/70
 0ed1b97
+Wed Mar 23 14:56:13 UTC 2022: 
+ list.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+In file included from test.c:5:0:
+list.c: In function ‘pushCurrent’:
+list.c:82:14: error: invalid initializer
+     Node n = list->current->next;
+              ^~~~
+list.c:83:6: error: invalid type argument of ‘->’ (have ‘Node {aka struct Node}’)
+     n->prev = x;
+      ^~
+Compilation failed
+da92b82
