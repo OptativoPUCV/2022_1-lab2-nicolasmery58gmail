@@ -56,3 +56,9 @@ list.c:83:6: error: invalid type argument of ‘->’ (have ‘Node {aka struct 
       ^~
 Compilation failed
 da92b82
+Wed Mar 23 14:56:41 UTC 2022: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|3
+total_score: 35/70
+5cfb869
